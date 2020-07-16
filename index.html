@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Мебель Парк</title>
+       <meta name="theme-color" content="#c9e0e04d">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="shortcut icon" href="./img/favicons/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-default">
+                        <div class="container">
+                            <div class="navbar-header col-lg-3 col-md-3">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse"data-target="#responsive-menu">
+                                    <span class="sr-only">Открыть меню</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar_brand" href="#">
+                                    <img src="img/icon/logo.svg" alt="Мебель Парк">
+                                </a>
+                            </div>
+                            <div class="collapse navbar-collapse" id="responsive-menu">
+                                <ul class="nav navbar-nav col-lg-6 col-md-8">
+                                    <li><a href="#">Каталог</a></li>
+                                    <li><a href="#">Портфолио</a></li>
+                                    <li><a href="#">Отзывы</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                                <div class="header__contact flex col-lg-3 col-md-3">
+                                    <div class="flex">
+                                        <a href="#">+7 (342) 202-99-91</a>
+                                        <a href="#" class="header__contact-email">remonta-mastera@mail.ru</a>
+                                    </div>
+                                    <a href="#">
+                                        <img src="img/icon/phone.svg" alt="Номер телефона">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="hero">
+                <div class="container flex">
+                    <img src="img/cupb_head.jpg" alt="Шкаф" class="col-lg-5 col-md-4">
+                    <div class="hero__info col-lg-5 col-md-4">
+                        <h1>Шкафы-купе <br> от производителя<br><span>по индивидуальным размерам</span></h1>
+                        <p>
+                            Пройдите тест за 30 секунд и узнайте стоимость <br> шкафа-купе от производителя прямо сейчас
+                        </p>
+                        <button type="button" class="btn yellow">
+                            Узнайте стоимость прямо сейчас
+                        </button>
+                    </div>
+                </div>
+        </section>
+
+        <section class="advantages">
+            <div class="container flex">
+                <div class="advantages__item">
+                    <img src="img/icon/garant.svg" class="garant" alt="Гарантия">
+                    <h3>Гарантия</h3>
+                    <p>Гарантия 2 года при сроке <br> эксплуатации 45 лет</p>
+                </div>
+                <div class="advantages__item">
+                    <img src="img/icon/mont.svg" alt="Монтаж">
+                    <h3>Монтаж</h3>
+                    <p>Профессиональный, безопасный, <br> быстрый и чистый монтаж!</p>
+                </div>
+                <div class="advantages__item">
+                    <img src="img/icon/price.svg" alt="Цена">
+                    <h3>Цена</h3>
+                    <p>Минимальная наценка благодаря <br> собственному производству</p>
+                </div>
+                <div class="advantages__item">
+                    <img src="img/icon/range.svg" alt="Ассортимент">
+                    <h3>Ассортимент</h3>
+                    <p>Большой ассортимент</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="container">
+             <div class="row">
+                <div class="flex">
+                   <button val="on" class="button flex" filter="all">
+                        <img src="img/icon/fil1.svg" alt="Фильтер">
+                        <span>Популярные</span>
+                   </button>
+                   <button val="off" class="button flex" filter="wd">
+                        <img src="img/icon/fil2.svg" alt="Фильтер">
+                        <span>Встроенные</span>
+                   </button>
+                   <button val="off" class="button flex" filter="ud">
+                        <img src="img/icon/fil3.svg" alt="Фильтер">
+                        <span>Угловые</span>
+                   </button>
+                   <button val="off" class="button flex" filter="moc">
+                        <img src="img/icon/fil5.svg" alt="Фильтер">
+                        <span>Корпусные</span>
+                   </button>
+                   <button val="off" class="button flex" filter="moc">
+                        <img src="img/icon/fil5.svg" alt="Фильтер">
+                        <span>Корпусные</span>
+                   </button>
+                   <button val="off" class="button flex" filter="moc">
+                        <img src="img/icon/fil6.svg" alt="Фильтер">
+                        <span>Гардеробные</span>
+                   </button>
+                </div>
+             </div>
+             <div class="row filter flex">
+                <div filter="wd" class="portfolio__item" >
+                    <img src="img/port1.png" alt="Пример из портфолио">
+                    <p>
+                        Угловой шкаф, <br>p ул. Мира, д. 31
+                    </p>
+                    <div class="portfolio__item_price flex">
+                        <img src="img/icon/port_price.svg" alt="Цена"><span>59 990 ₽</span>
+                    </div>
+                    <button type="button" class="btn green">Хочу такой же</button>
+                    <div>
+                        <a href="#"><img src="img/icon/info.svg" alt="Больше информации">Больше информации</a>
+                    </div>
+                </div>
+                <div filter="moc" class="portfolio__item">
+                        <img src="img/port2.png" alt="Пример из портфолио">
+                        <p>
+                            Встроенный шкаф-купе, <br> ул. Советской Армии, 6
+                        </p>
+                        <div class="portfolio__item_price flex">
+                            <img src="img/icon/port_price.svg" alt="Цена"><span>43 700 ₽</span>
+                        </div>
+                        <button type="button" class="btn green">Хочу такой же</button>
+                        <div>
+                            <a href="#"><img src="img/icon/info.svg" alt="Больше информации">Больше информации</a>
+                        </div>
+                </div>
+                <div filter="wd" class="portfolio__item">
+                   <img src="img/port3.png" alt="Пример из портфолио">
+                        <p>
+                            Шкаф-купе со столиком, <br> ул. Чернышевского, 15а
+                        </p>
+                        <div class="portfolio__item_price flex">
+                            <img src="img/icon/port_price.svg" alt="Цена"><span>42 600 ₽</span>
+                        </div>
+                        <button type="button" class="btn green">Хочу такой же</button>
+                        <div>
+                            <a href="#"><img src="img/icon/info.svg" alt="Больше информации">Больше информации</a>
+                        </div>
+                </div>
+                <div filter="ud" class="portfolio__item">
+                        <img src="img/port4.png" alt="Пример из портфолио">
+                        <p>
+                            Небольшой шкаф в <br> прихожую, ул. Семченко, 6
+                        </p>
+                        <div class="portfolio__item_price flex">
+                            <img src="img/icon/port_price.svg" alt="Цена"><span>26 000 ₽</span>
+                        </div>
+                        <button type="button" class="btn green">Хочу такой же</button>
+                        <div>
+                            <a href="#"><img src="img/icon/info.svg" alt="Больше информации">Больше информации</a>
+                        </div>
+                </div>
+             </div>
+             <div class="row">
+                <button class="btn">
+                    Показать больше
+                </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="info">
+            <div class="container flex">
+                <div class="info__item">
+                    <h3>0 ₽</h3>
+                    <p>замер, эскизный проект, <br> доставка и сборка в Перми</p>
+                </div>
+                <div class="info__item">
+                    <h3>5 дней</h3>
+                    <p>от звонка до установки <br> шкафа вашей мечты</p>
+                </div>
+                <div class="info__item">
+                    <h3>2 года</h3>
+                    <p>гарантии при сроке <br> эксплуатации до 45 лет</p>
+                </div>
+                <div class="info__item">
+                    <h3>0 %</h3>
+                    <p>честная рассрочка <br> для всaех</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="container">
+                <div class="row">
+                    <h2>Наше портфолио</h2>
+                    <p>Мы собрали лучшие наши работы</p>
+                </div>
+                <div class="row flex">
+                    <div class="portfolio__item flex">
+                        <img src="img/port1.png" alt="Пример из портфолио">
+                        <p>
+                            Угловой шкаф, <br>p ул. Мира, д. 31
+                        </p>
+                        <div class="portfolio__item_price flex">
+                            <img src="img/icon/port_price.svg" alt="Цена"><span>59 990 ₽</span>
+                        </div>
+                        <button type="button" class="btn green">Хочу такой же</button>
+                        <div>
+                            <a href="#"><img src="img/icon/info.svg" alt="Больше информации">Больше информации</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__item flex">
+                        <img src="img/port2.png" alt="Пример из портфолио">
+                        <p>
+                            Встроенный шкаф-купе, <br> ул. Советской Армии, 6
+                        </p>
+                        <div class="portfolio__item_price flex">
+                            <img src="img/icon/port_price.svg" alt="Цена"><span>43 700 ₽</span>
+                        </div>
+                        <button type="button" class="btn green">Хочу такой же</button>
+                        <div>
+                            <a href="#"><img src="img/icon/info.svg" alt="Больше информации">Больше информации</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__item flex">
+                        <img src="img/port3.png" alt="Пример из портфолио">
+                        <p>
+                            Шкаф-купе со столиком, <br> ул. Чернышевского, 15а
+                        </p>
+                        <div class="portfolio__item_price flex">
+                            <img src="img/icon/port_price.svg" alt="Цена"><span>42 600 ₽</span>
+                        </div>
+                        <button type="button" class="btn green">Хочу такой же</button>
+                        <div>
+                            <a href="#"><img src="img/icon/info.svg" alt="Больше информации">Больше информации</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__item flex">
+                        <img src="img/port4.png" alt="Пример из портфолио">
+                        <p>
+                            Небольшой шкаф в <br> прихожую, ул. Семченко, 6
+                        </p>
+                        <div class="portfolio__item_price flex">
+                            <img src="img/icon/port_price.svg" alt="Цена"><span>26 000 ₽</span>
+                        </div>
+                        <button type="button" class="btn green">Хочу такой же</button>
+                        <div>
+                            <a href="#"><img src="img/icon/info.svg" alt="Больше информации">Больше информации</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <button class="btn">
+                        Показать больше
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <div class="container">
+                <h2>Отзывы клиентов</h2>
+                <p>Мы гордимся отзывами наших клиентов</p>
+                <div class="slider">
+                    <div class="slider__item filter">
+                        <img src="img/feedback.png" alt="Отзыв">
+                        <img src="img/icon/feed.svg" class="apostrophe" class="apostrophe" alt="Отзыв">
+                        <h3>Лилия Смирнова</h3>
+                        <p>“Заказывали шкаф в спальню. Всё сделали точь в точь как мы и хотели. Собрали всё аккуратнои надёжно. Мастера своего дела. Спасибо вам большое!”</p>
+                        <a href="#">https://vk.com/lila_yusupova</a>
+                    </div>
+                    <div class="slider__item filter">
+                        <img src="img/feedback.png" alt="Отзыв">
+                        <img src="img/icon/feed.svg" class="apostrophe" alt="Отзыв">
+                        <h3>Лилия Смирнова</h3>
+                        <p>“Заказывали шкаф в спальню. Всё сделали точь в точь как мы и хотели. Собрали всё аккуратнои надёжно. Мастера своего дела. Спасибо вам большое!”</p>
+                        <a href="#">https://vk.com/lila_yusupova</a>
+                    </div>
+                    <div class="slider__item filter">
+                        <img src="img/feedback.png" alt="Отзыв">
+                        <img src="img/icon/feed.svg" class="apostrophe" alt="Отзыв">
+                        <h3>Лилия Смирнова</h3>
+                        <p>“Заказывали шкаф в спальню. Всё сделали точь в точь как мы и хотели. Собрали всё аккуратнои надёжно. Мастера своего дела. Спасибо вам большое!”</p>
+                       <a href="#">https://vk.com/lila_yusupova</a>
+                    </div>
+                    <div class="slider__item filter">
+                        <img src="img/feedback.png" alt="Отзыв">
+                        <img src="img/icon/feed.svg" class="apostrophe" alt="Отзыв">
+                        <h3>Лилия Смирнова</h3>
+                        <p>“Заказывали шкаф в спальню. Всё сделали точь в точь как мы и хотели. Собрали всё аккуратнои надёжно. Мастера своего дела. Спасибо вам большое!”</p>
+                        <a href="#">https://vk.com/lila_yusupova</a>
+                    </div>
+                    <div class="slider__item filter">
+                        <img src="img/feedback.png" alt="Отзыв">
+                        <img src="img/icon/feed.svg" class="apostrophe" alt="Отзыв">
+                        <h3>Лилия Смирнова</h3>
+                        <p>“Заказывали шкаф в спальню. Всё сделали точь в точь как мы и хотели. Собрали всё аккуратнои надёжно. Мастера своего дела. Спасибо вам большое!”</p>
+                        <a href="#">https://vk.com/lila_yusupova</a>
+                    </div>
+                    <div class="slider__item filter">
+                        <img src="img/feedback.png" alt="Отзыв">
+                        <img src="img/icon/feed.svg" class="apostrophe" alt="Отзыв">
+                        <h3>Лилия Смирнова</h3>
+                        <p>“Заказывали шкаф в спальню. Всё сделали точь в точь как мы и хотели. Собрали всё аккуратнои надёжно. Мастера своего дела. Спасибо вам большое!”</p>
+                        <a href="#">https://vk.com/lila_yusupova</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="production">
+            <div class="container">
+                <h2>Собственное производство</h2>
+                <p>Более 15 лет собственное высокотехнологичное производство</p>
+                <div class="row row_1 flex">
+                    <div class="production__item">
+                        <a href="#"><img src="img/pr1.png" alt="Продукция"></a>
+                    </div>
+                    <div class="production__item">
+                        <a href="#"><img src="img/pr2.png" alt="Продукция"></a>
+                    </div>
+                    <div class="production__item">
+                        <a href="#"><img src="img/pr3.png" alt="Продукция"></a>
+                    </div>
+                    <div class="production__item">
+                        <a href="#"><img src="img/pr4.png" alt="Продукция"></a>
+                    </div>
+                </div>
+                <div class="row flex">
+                    <div class="production__item">
+                        <a href="#"><img src="img/pr5.png" alt="Продукция"></a>
+                    </div>
+                    <div class="production__item">
+                        <a href="#"><img src="img/pr6.png" alt="Продукция"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pro">
+            <div class="container">
+                <div class="row">
+                    <h2>Профессиональные <br> замерщики и сборщики</h2>
+                    <p>Наши замерщики приедут в удобное для Вас время, привезут все <br> образцы материалов и дадут рекомендации по подбору материалов</p>
+                    <button class="btn green">Оставить заявку на замер</button>
+                </div>
+                <div class="row">
+                    <img src="img/meaus.png" alt="Замер">
+                </div>
+            </div>
+        </section>
+
+        <section class="brands">
+            <div class="container">
+                <div class="row">
+                    <h2>Качественные материалы</h2>
+                    <p>Работаем с популярными европейскими производителями</p>
+                </div>
+                <div class="row brands__ex flex">
+                    <a href="#"><img src="img/icon/egg.svg" alt="Брэнд Egger"></a>
+                    <a href="#"><img src="img/icon/aris.svg" alt="Брэнд Aristo"></a>
+                    <a href="#"><img src="img/icon/raum.svg" alt="Брэнд Raumplus"></a>
+                    <a href="#"><img src="img/icon/blum.svg" alt="Брэнд Blum"></a>
+                    <a href="#"><img src="img/icon/kom.svg" alt="Брэнд Komandor"></a>
+                    <a href="#"><img src="img/icon/hetch.svg" alt="Брэнд Hetch"></a>
+                </div>
+                <div class="row flex">
+                    <div class="brand__item" style="padding-bottom: 20px">
+                        <a href="#"><img src="img/br1.png" alt="Пример от брэнда"></a>
+                        <p>Фасады</p>
+                        <h4>ЛДСП Egger</h4>
+                    </div>
+                    <div class="brand__item">
+                        <a href="#"><img src="img/br2.png" alt="Пример от брэнда"></a>
+                        <p>Механизмы</p>
+                        <h4>Раздвижные системы <br> ARISTO</h4>
+                    </div>
+                    <div class="brand__item">
+                        <a href="#"><img src="img/br3.png" alt="Пример от брэнда"></a>
+                        <p>Механизмы</p>
+                        <h4>Раздвижные системы <br> ABSOLUT</h4>
+                    </div>
+                    <div class="brand__item">
+                        <a href="#"><img src="img/br4.png" alt="Пример от брэнда"></a>
+                        <p>Стекло</p>
+                        <h4>Цветное стекло <br> LACOBEL</h4>
+                    </div>
+                </div>
+                <div class="row flex">
+                    <div class="brand__item">
+                        <a href="#"><img src="img/br5.png" alt="Пример от брэнда"></a>
+                        <p>Стекло</p>
+                        <h4>Стекло с плёнкой <br> ORACAL</h4>
+                    </div>
+                    <div class="brand__item">
+                        <a href="#"><img src="img/br6.png" alt="Пример от брэнда"></a>
+                        <p>Фасады</p>
+                        <h4>Фасады в МДФ-рамке <br> ABSOLUT</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="discount">
+            <div class="container flex">
+                <div class="row">
+                    <h2>Скидка 30% <br> на шкаф-купе <br> только в июне!</h2>
+                    <p>Только у нас шк афы европейского <br> качества по минимальной цене!</p>
+                </div>
+                <div class="row">
+                    <h3>30%</h3>
+                    <button class="btn yellow">Успейте получить скидку</button>
+                </div>
+                <a href="#"><img src="img/dis.png" alt="Скидка"></a>
+            </div>
+        </section>
+
+        <section class="experience">
+            <div class="container">
+                <div class="row flex">
+                    <h2 class="col-sm-12 col-md-12 col-lg-3">Работаем более <br> <span>15 лет</span></h2>
+                    <div class="experience__item col-md-3 col-lg-3">
+                        <h4>>1000</h4>
+                        <p>выполненных <br> заказов</p>
+                    </div>
+                    <div class="experience__item col-md-3 col-lg-3">
+                        <h4>>2000</h4>
+                        <p>довольных <br> заказчиков</p>
+                    </div>
+                    <div class="experience__item col-md-3 col-lg-3">
+                        <h4>200000</h4>
+                        <p>цветовых и декораторских <br> решений</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="filling">
+            <div class="container">
+                <div class="row">
+                    <h2>Эффективное наполнение</h2>
+                    <p>Грамотно организуем внутреннее пространство шкафа любой формы и размера</p>
+                    <img src="img/fill.png" alt="Шкаф">
+                    <div class="filling__nav">
+                        <ul class="flex">
+                            <li><a href="#" class="selected">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                        </ul>
+                        <p>Благодаря эффективному наполнению шкафа можно добиться успеха в <br> организации пространства и экономии средств на покупку другой мебели.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="steps">
+            <div class="steps__wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <h2><span>5</span>простых шагов отделяют Вас <br> от идеальной мебели</h2>
+                        <div class="row flex"><button class="btn" id="btn"></button></div>
+                        <div id="timeline">
+                            <div class="dot" id="one">
+                                <span></span>
+                                <p>Шаг 1</p>
+                                <div class="timeline__item">
+                                    <h4>Звонок или заявка <br> на сайте</h4>
+                                    <p>Согласовываем место и время встречи с дизайнером-замерщиком</p>
+                                </div>
+                            </div>
+                            <div class="dot" id="two">
+                                <span></span>
+                                <p>Шаг 2</p>
+                                <div class="timeline__item">
+                                    <h4>Выезд дизайнера-замерщика</h4>
+                                    <p>Дизайнер-замерщик бесплатно привозит образцы, каталоги и помогает определиться с выбором</p>
+                                </div>
+                            </div>
+                            <div class="dot" id="three">
+                                <span></span>
+                                <p>Шаг 3</p>
+                                <div class="timeline__item">
+                                    <h4>Расчет стоимости и договор</h4>
+                                    <p>Дизайнер-замерщик создает эскиз и делает расчет стоимости. После этого можно сразу подписать договор.</p>
+                                </div>
+                            </div>
+                            <div class="dot" id="four">
+                                <span></span>
+                                <p>Шаг 4</p>
+                                <div class="timeline__item">
+                                    <h4>Прозводство <br> мебели</h4>
+                                    <p>Проект передается на фабрику на следующий день после заключения договора.</p>
+                                </div>
+                            </div>
+                            <div class="dot" id="five">
+                                <span></span>
+                                <p>Шаг 5</p>
+                                <div class="timeline__item">
+                                    <h4>Доставка и сборка</h4>
+                                    <p>Через 10 рабочих дней у вас новая мебель, отвечающая всем вашим требованиям.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="steps_2">
+            <div class="container-fluid">
+            </div>
+        </section>
+
+        <section class="calc">
+            <div class="container">
+                <div class="row">
+                    <h2>Расчитаем цену по вашему эскизу</h2>
+                    <p>У Вас есть эскиз или фото шкафа и хотите такой же?</p>
+                </div>
+                <div class="row">
+                    <form action="/" class="flex">
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="text" placeholder="Email">
+                        <label class="placeinput">
+                            <input required="1" type="text" id="text" />
+                            <div class="place_holder">Номер телефона<span>*</span></div>
+                        </label>
+                        <button type="button" class="btn form__btn"><img src="img/icon/form.svg" alt="Закрепить">Прикрепить файл <span>*</span></button>
+                        <button class="btn yellow">Отправить заявку</button>
+                        <label class="checkbox"><p>Даю своё согласие на обработку своих персональных данных и соглашаюсь с <a href="#">условиями обработки данных</a></p>
+                          <input type="checkbox" checked="checked">
+                          <span class="checkmark"></span>
+                        </label>
+                    </form>
+                    <img src="img/calc.png" alt="Шкаф">
+                </div>
+            </div>
+        </section>
+
+        <section class="question">
+            <div class="container">
+                <div class="row">
+                    <h2>Вопросы и ответы</h2>
+                    <p class="question__subtitle">Отвечайте на вопросы потенциальных клиентов и заранее закрывайте возможные возражения</p>
+                </div>
+                <div class="row flex">
+                    <div class="question__item">
+                        <a href="#"><img src="img/question.png" alt="Менеджер"></a>
+                        <p>На Ваши вопросы отвечает</p>
+                        <h3>Менеджер компании <br> "Мебель Парк"</h3>
+                        <button class="btn green">Задать вопрос</button>
+                    </div>
+                    <div class="question__spoiler">
+                        <div class="spoiler one">
+                            <div class="spoiler__item">
+                                <div class="spoiler__title flex">
+                                    <span>?</span><h3>Возможен ли замер, если не закончена внутренняя отделка помещения?</h3>
+                                </div>
+                                <p class="spoiler__text">Для полностью корпусных изделий это не так важно. Для производства и монтажа встроенных и частично встроенных шкафов необходимо знать точные размеры помещения.</p>
+                            </div>
+                            <div class="spoiler__item">
+                                <div class="spoiler__title flex">
+                                    <span>?</span><h3>Планирую хранить в шкафу тяжелые предметы. Закрутки на зиму, ящики со строительными инструментами и прочее. Не деформируются/сломаются ли полки?</h3>
+                                </div>
+                                <p class="spoiler__text">Для полностью корпусных изделий это не так важно. Для производства и монтажа встроенных и частично встроенных шкафов необходимо знать точные размеры помещения.</p>
+                            </div>
+                            <div class="spoiler__item">
+                                <div class="spoiler__title flex">
+                                    <span>?</span><h3>Где и как можно посмотреть пощупать образцы материалов?</h3>
+                                </div>
+                                <p class="spoiler__text">Для полностью корпусных изделий это не так важно. Для производства и монтажа встроенных и частично встроенных шкафов необходимо знать точные размеры помещения.</p>
+                            </div>
+                            <div class="spoiler__item">
+                                <div class="spoiler__title flex">
+                                    <span>?</span><h3>У нас неровный пол. Как ставить шкаф-купе?</h3>
+                                </div>
+                                <p class="spoiler__text">Для полностью корпусных изделий это не так важно. Для производства и монтажа встроенных и частично встроенных шкафов необходимо знать точные размеры помещения.</p>
+                            </div>
+                            <div class="spoiler__item">
+                                <div class="spoiler__title flex">
+                                    <span>?</span><h3>Возможно ли оплата картой?</h3>
+                                </div>
+                                <p class="spoiler__text">Для полностью корпусных изделий это не так важно. Для производства и монтажа встроенных и частично встроенных шкафов необходимо знать точные размеры помещения.</p>
+                            </div>
+                            <div class="spoiler__item">
+                                <div class="spoiler__title flex">
+                                    <span>?</span><h3>Вы занимаетесь только шкафами-купе?</h3>
+                                </div>
+                                <p class="spoiler__text">Для полностью корпусных изделий это не так важно. Для производства и монтажа встроенных и частично встроенных шкафов необходимо знать точные размеры помещения.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="plans">
+            <div class="container">
+                <div class="row">
+                    <h2>Гибкая ценовая политика</h2>
+                    <p>Доступны компактный и расширенный вид. Любой формат цен, подробное описание</p>
+                </div>
+                <div class="row flex">
+                    <div class="plans__item">
+                        <h4>Эконом</h4>
+                        <img src="img/pl1.png" alt="План" class="plans__img">
+                        <p>Функциональная, компактная, лаконичная, мебель. Стоимость шкафа класса "Комфорт" начинается от 15 450 рублей.</p>
+                        <ul>
+                            <li>Качество</li>
+                            <li>Функционал</li>
+                            <li>Оперативность</li>
+                            <li>Экономичность</li>
+                        </ul>
+                        <button class="btn green">Оставить заявку</button>
+                        <div class="portfolio__item_price flex">
+                            <img src="img/icon/port_price.svg" alt="Цена"><span>от 15 000 ₽</span>
+                        </div>
+                    </div>
+                    <div class="plans__item standart">
+                        <img src="img/icon/star.svg" alt="Стандарт" class="star">
+                        <h4>Стандарт</h4>
+                        <img src="img/pl2.png" alt="План" class="plans__img">
+                        <p>Идеальный баланс цена/качество. Смелые и стильные дизайнерские решения. Современные и удобные шкафы от 28 360 рублей.</p>
+                        <ul>
+                            <li>Качество</li>
+                            <li>Функционал</li>
+                            <li>Оперативность</li>
+                            <li>Экономичность</li>
+                            <li>Над вашим проектом будет работать профессиональный дизайнер</li>
+                        </ul>
+                        <button class="btn green">Оставить заявку</button>
+                        <div class="portfolio__item_price flex">
+                            <img src="img/icon/port_price.svg" alt="Цена"><span>от 28 000 ₽</span>
+                        </div>
+                    </div>
+                    <div class="plans__item">
+                        <h4>Эконом</h4>
+                        <img src="img/pl3.png" alt="План" class="plans__img">
+                        <p>Функциональная, компактная, лаконичная, мебель. Стоимость шкафа класса "Комфорт" начинается от 15 450 рублей.</p>
+                        <ul>
+                            <li>Все пункты класса "эконом"</li>
+                            <li>Все пункты класса "стандарт"</li>
+                            <li>Над проектами работают профессиональные дизайнеры</li>
+                            <li>Материалы из сигмента премиум</li>
+                        </ul>
+                        <button class="btn green">Оставить заявку</button>
+                        <div class="portfolio__item_price flex">
+                            <img src="img/icon/port_price.svg" alt="Цена"><span>от 75 000 ₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="calc">
+            <div class="container">
+                <div class="row">
+                    <h2>Расчитаем цену по вашему эскизу</h2>
+                    <p>У Вас есть эскиз или фото шкафа и хотите такой же?</p>
+                </div>
+                <div class="row">
+                    <form action="/" class="flex">
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="text" placeholder="Email">
+                        <label class="placeinput">
+                            <input required="1" type="text" id="text" />
+                            <div class="place_holder">Номер телефона<span>*</span></div>
+                        </label>
+                        <button type="button" class="btn form__btn"><img src="img/icon/form.svg" alt="Закрепить">Прикрепить файл <span>*</span></button>
+                        <button class="btn yellow">Отправить заявку</button>
+                        <label class="checkbox"><p>Даю своё согласие на обработку своих персональных данных и соглашаюсь с <a href="#">условиями обработки данных</a></p>
+                          <input type="checkbox" checked="checked">
+                          <span class="checkmark"></span>
+                        </label>
+                    </form>
+                    <img src="img/calc2.png" alt="Шкаф" class="calc__woman">
+                </div>
+            </div>
+        </section>
+
+        <section class="map">
+            <div class="map__contact">
+                <h3>Наши контакты</h3>
+                <p>Пермь, ул. Есенина, 45</p>
+                <p>+7 (342) 202-99-91</p>
+                <p>remonta-mastera@mail.ru</p>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2113.8043609609144!2d56.11008731584347!3d58.00808082328511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43e8b889cda491cf%3A0x770e836b68ca700f!2sUlitsa%20Sergeya%20Yesenina%2C%2045%2C%20Perm%2C%20Permskiy%20kray%2C%20Russia%2C%20614058!5e0!3m2!1sen!2str!4v1594755281514!5m2!1sen!2str" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row flex">
+                    <div class="footer__copyright">
+                        <p> &copy; ООО "Мебель парк" 2007-2020. <br> Все права защищены.</p>
+                        <a href="#">Политика конфиденциальности</a>
+                    </div>
+                    <div class="footer__nav">
+                        <ul class="flex">
+                            <li><a href="#">Каталог</a></li>
+                            <li><a href="#">Портфолио</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex">
+                        <a href="#">+7 (342) 202-99-91</a>
+                        <a href="#" class="header__contact-email">remonta-mastera@mail.ru</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/spoiler.js"></script>
+    </body>
+</html>

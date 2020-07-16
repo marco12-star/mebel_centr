@@ -1,0 +1,43 @@
+<svg width="68" height="62" viewBox="0 0 68 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1" fill="white">
+<rect width="68" height="60" rx="1"/>
+</mask>
+<rect width="68" height="60" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-1-inside-1)"/>
+<mask id="path-2-inside-2" fill="white">
+<rect width="24" height="60" rx="1"/>
+</mask>
+<rect width="24" height="60" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-2-inside-2)"/>
+<mask id="path-3-inside-3" fill="white">
+<rect x="44" width="24" height="60" rx="1"/>
+</mask>
+<rect x="44" width="24" height="60" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-3-inside-3)"/>
+<mask id="path-4-inside-4" fill="white">
+<rect x="44" y="48" width="24" height="12" rx="1"/>
+</mask>
+<rect x="44" y="48" width="24" height="12" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-4-inside-4)"/>
+<mask id="path-5-inside-5" fill="white">
+<rect x="44" y="39" width="24" height="12" rx="1"/>
+</mask>
+<rect x="44" y="39" width="24" height="12" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-5-inside-5)"/>
+<mask id="path-6-inside-6" fill="white">
+<rect x="44" y="30" width="24" height="12" rx="1"/>
+</mask>
+<rect x="44" y="30" width="24" height="12" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-6-inside-6)"/>
+<mask id="path-7-inside-7" fill="white">
+<rect y="48" width="24" height="12" rx="1"/>
+</mask>
+<rect y="48" width="24" height="12" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-7-inside-7)"/>
+<mask id="path-8-inside-8" fill="white">
+<rect x="21" y="39" width="26" height="21" rx="1"/>
+</mask>
+<rect x="21" y="39" width="26" height="21" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-8-inside-8)"/>
+<path d="M60.5 22.5L66.5 16.5" stroke="#170224" stroke-width="3"/>
+<path d="M46 16L55 7" stroke="#170224" stroke-width="3"/>
+<path d="M49 27L66 10" stroke="#170224" stroke-width="3"/>
+<path d="M8 9.5V38.5" stroke="#170224" stroke-width="3"/>
+<path d="M4 60V62" stroke="#170224" stroke-width="3"/>
+<path d="M64 60V62" stroke="#170224" stroke-width="3"/>
+<path d="M16 9.5V38.5" stroke="#170224" stroke-width="3"/>
+<path d="M30 46H38" stroke="#170224" stroke-width="3"/>
+<path d="M1 9H23" stroke="#170224" stroke-width="3"/>
+</svg>

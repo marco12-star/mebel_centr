@@ -1,0 +1,37 @@
+<svg width="65" height="70" viewBox="0 0 65 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1" fill="white">
+<rect y="5" width="56" height="60" rx="1"/>
+</mask>
+<rect y="5" width="56" height="60" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-1-inside-1)"/>
+<path d="M54.5 63.0729V6.92705L63.5 2.42705V67.5729L54.5 63.0729ZM54.2236 62.9347C54.2239 62.9349 54.2241 62.935 54.2244 62.9352L54.2236 62.9347L54 63.382L54.2236 62.9347Z" stroke="#170224" stroke-width="3"/>
+<mask id="path-3-inside-2" fill="white">
+<rect x="6" y="5" width="27" height="60" rx="1"/>
+</mask>
+<rect x="6" y="5" width="27" height="60" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-3-inside-2)"/>
+<mask id="path-4-inside-3" fill="white">
+<rect x="30" y="53" width="26" height="12" rx="1"/>
+</mask>
+<rect x="30" y="53" width="26" height="12" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-4-inside-3)"/>
+<mask id="path-5-inside-4" fill="white">
+<rect x="30" y="5" width="26" height="12" rx="1"/>
+</mask>
+<rect x="30" y="5" width="26" height="12" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-5-inside-4)"/>
+<path d="M4 65V67" stroke="#170224" stroke-width="3"/>
+<path d="M52 65V67" stroke="#170224" stroke-width="3"/>
+<mask id="path-8-inside-5" fill="white">
+<rect x="38" y="47" width="13" height="8" rx="1"/>
+</mask>
+<rect x="38" y="47" width="13" height="8" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-8-inside-5)"/>
+<mask id="path-9-inside-6" fill="white">
+<rect x="38" y="42" width="13" height="8" rx="1"/>
+</mask>
+<rect x="38" y="42" width="13" height="8" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-9-inside-6)"/>
+<mask id="path-10-inside-7" fill="white">
+<rect x="47" y="10" width="9" height="7" rx="1"/>
+</mask>
+<rect x="47" y="10" width="9" height="7" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-10-inside-7)"/>
+<path d="M40 59H46" stroke="#170224" stroke-width="3"/>
+<path d="M27 43L27 37" stroke="#170224" stroke-width="3"/>
+<path d="M31.5 16V22" stroke="#170224" stroke-width="3"/>
+<path d="M31 21H37.624C37.8664 21 38.1005 21.088 38.2828 21.2477L42.185 24.6647C42.6242 25.0493 42.642 25.7267 42.2236 26.1338L40.4798 27.8305C40.1895 28.113 39.7574 28.1924 39.3855 28.0316L38.3969 27.6041C37.7367 27.3186 37 27.8026 37 28.5219V39C37 39.5523 36.5523 40 36 40H31" stroke="#170224" stroke-width="3"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg width="68" height="62" viewBox="0 0 68 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1" fill="white">
+<rect width="68" height="60" rx="1"/>
+</mask>
+<rect width="68" height="60" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-1-inside-1)"/>
+<mask id="path-2-inside-2" fill="white">
+<rect x="44" width="24" height="60" rx="1"/>
+</mask>
+<rect x="44" width="24" height="60" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-2-inside-2)"/>
+<mask id="path-3-inside-3" fill="white">
+<rect x="44" y="48" width="24" height="12" rx="1"/>
+</mask>
+<rect x="44" y="48" width="24" height="12" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-3-inside-3)"/>
+<mask id="path-4-inside-4" fill="white">
+<rect x="44" y="39" width="24" height="12" rx="1"/>
+</mask>
+<rect x="44" y="39" width="24" height="12" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-4-inside-4)"/>
+<mask id="path-5-inside-5" fill="white">
+<rect y="48" width="24" height="12" rx="1"/>
+</mask>
+<rect y="48" width="24" height="12" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-5-inside-5)"/>
+<mask id="path-6-inside-6" fill="white">
+<rect x="21" y="48" width="26" height="12" rx="1"/>
+</mask>
+<rect x="21" y="48" width="26" height="12" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-6-inside-6)"/>
+<path d="M4 60V62" stroke="#170224" stroke-width="3"/>
+<path d="M64 60V62" stroke="#170224" stroke-width="3"/>
+<mask id="path-9-inside-7" fill="white">
+<rect x="37" y="43" width="10" height="8" rx="1"/>
+</mask>
+<rect x="37" y="43" width="10" height="8" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-9-inside-7)"/>
+<mask id="path-10-inside-8" fill="white">
+<rect x="37" y="38" width="10" height="8" rx="1"/>
+</mask>
+<rect x="37" y="38" width="10" height="8" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-10-inside-8)"/>
+<mask id="path-11-inside-9" fill="white">
+<rect y="43" width="15" height="8" rx="1"/>
+</mask>
+<rect y="43" width="15" height="8" rx="1" stroke="#170224" stroke-width="6" mask="url(#path-11-inside-9)"/>
+<path d="M31 54H37" stroke="#170224" stroke-width="3"/>
+<path d="M9 54H15" stroke="#170224" stroke-width="3"/>
+<path d="M1 7H45.5" stroke="#170224" stroke-width="3"/>
+<path d="M23 14L27.3407 13.0354C27.4462 13.012 27.5548 13.0058 27.6623 13.0171L36.1581 13.9114C36.644 13.9625 37.0218 14.3573 37.0516 14.8449L37.9484 29.5326C37.9782 30.0206 37.6507 30.4586 37.1741 30.5681L35.2239 31.0161C34.5975 31.16 34 30.6842 34 30.0415V23V43.5C34 44.0523 33.5523 44.5 33 44.5H21C20.4477 44.5 20 44.0523 20 43.5V31" stroke="#170224" stroke-width="3"/>
+<path d="M46 7H66" stroke="#170224" stroke-width="3"/>
+<path d="M14.5 8V14" stroke="#170224" stroke-width="3"/>
+<path d="M28.5 8V14" stroke="#170224" stroke-width="3"/>
+<path d="M14 13H8.38374C8.13669 13 7.8984 13.0914 7.71477 13.2567L3.78344 16.7949C3.35759 17.1782 3.34018 17.8402 3.7453 18.2453L5.49035 19.9903C5.79471 20.2947 6.25968 20.3702 6.64467 20.1777L7.55279 19.7236C8.21769 19.3912 9 19.8747 9 20.618V31C9 31.5523 9.44772 32 10 32H14" stroke="#170224" stroke-width="3"/>
+<path d="M14 13H20.624C20.8664 13 21.1005 13.088 21.2828 13.2477L25.185 16.6647C25.6242 17.0493 25.642 17.7267 25.2236 18.1338L23.4798 19.8305C23.1895 20.113 22.7574 20.1924 22.3855 20.0316L21.3969 19.6041C20.7367 19.3186 20 19.8026 20 20.5219V31C20 31.5523 19.5523 32 19 32H14" stroke="#170224" stroke-width="3"/>
+<path d="M56 8V14" stroke="#170224" stroke-width="3"/>
+<path d="M55.5652 13H50.7721C50.501 13 50.2414 13.1101 50.053 13.3052L46.637 16.8407C46.2766 17.2137 46.2612 17.8004 46.6015 18.1918L48.0688 19.8792C48.3825 20.2399 48.9075 20.3282 49.3219 20.0899L49.7189 19.8616C50.3856 19.4783 51.2174 19.9595 51.2174 20.7285V31C51.2174 31.5523 51.6651 32 52.2174 32H55.5652" stroke="#170224" stroke-width="3"/>
+<path d="M55.5652 13H61.2359C61.5023 13 61.7578 13.1063 61.9455 13.2954L65.3361 16.7099C65.709 17.0853 65.7248 17.6863 65.3722 18.0809L63.8994 19.7287C63.5993 20.0645 63.1118 20.1583 62.7085 19.9578L62.2279 19.7187C61.5631 19.3881 60.7826 19.8717 60.7826 20.6141V31C60.7826 31.5523 60.3349 32 59.7826 32H55.5652" stroke="#170224" stroke-width="3"/>
+</svg>
