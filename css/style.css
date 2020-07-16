@@ -366,36 +366,12 @@ body{
 .slick-list {
 	overflow: hidden;
 }
-/* Лента слайдов */
+
 .slick-track{
 	display: flex;
 	align-items: flex-start;
 }
 
-/* Слайд */
-.slick-slide{}
-/* Слайд активный */
-.slick-slide.slick-active{}
-/* Слайд основной */
-.slick-slide.slick-current{}
-/* Слайд по центру */
-.slick-slide.slick-center{}
-
-/* Стрелка */
-.slick-arrow{}
-/* Стрелка влево */
-.slick-arrow.slick-prev{}
-/* Стрелка вправо */
-.slick-arrow.slick-next{}
-/* Стрелка не активная */
-.slick-arrow.slick-disabled{}
-
-/* Точки */
-.slick-dots{}
-.slick-dots li{}
-.slick-dots button{}
-
-/* Конкретный слайдер */
 .slider {
 	position: relative;
 }
@@ -438,7 +414,6 @@ body{
 }
 
 .slider__item {
-	width: 2.1%;
 	padding: 37px 100px 60px 140px;
 	margin: 0 1%;
 	border-radius: 14px;
@@ -447,10 +422,6 @@ body{
 .slider__item img{
 	max-width: 100%;
 }
-.slider__item.slick-center{
-
-}
-
 
 .slider__item{
 	position: relative;
@@ -475,7 +446,7 @@ body{
 }
 
 .slider__item p{
-	width: 500px;
+	width: 95%;
 	padding-bottom: 16px;
 	font-size: 18px;
 }
@@ -696,7 +667,6 @@ body{
 /* FILLING */
 
 .filling {
-	display: none;
 	padding: 135px 0 120px 0;
 	background: #F8F6F9;
 	text-align: center;

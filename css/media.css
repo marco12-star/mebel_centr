@@ -206,6 +206,20 @@ section.feedback .container {
 }
 
 @media all and (max-width: 384px) {
+	.hero h1 {
+		font-size: 32px;
+	}
+	.hero h1 span {
+		font-size: 28px;
+	}
+	.yellow {
+		font-size: 15px;
+		padding: 10px;
+	}
+	.portfolio h2,
+	.feedback h2 {
+		font-size: 32px;
+	}
 	.plans__item {
 		width: 85%;
 	}

@@ -8,7 +8,6 @@ $(document).ready(function(){
 		speed:1000,
 		autoplaySpeed:2000,
 		centerMode: true,
-		variableWidth: true,
 		responsive:[
 			{
 				breakpoint: 768,
