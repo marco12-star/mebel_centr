@@ -339,17 +339,14 @@ section.feedback .container {
 }
 @media all and (max-width: 670px) {
 	.steps_2 {
-		padding-bottom: 120%;
+		padding-bottom: 200%;
 	}
 	div#timeline {
-		width: 128%;	
+		width: 200%;	
 	}
 	div#timeline.timeline__mobile {
-		margin-top: 63%;
-	}
-	div#timeline.timeline__mobile {
-		margin-top: 63%;
-		left: -10%;
+		margin-top: 99.3%;
+		left: -50%;
 	}
 	div#timeline .dot p {
 		right: -10px;
@@ -359,6 +356,9 @@ section.feedback .container {
 	}
 	div#timeline .dot>p.steps__right {
 		right: 105%;
+	}
+	.steps .row .row.flex {
+		top: 450%;
 	}
 
 }
@@ -397,25 +397,48 @@ section.feedback .container {
 	}
 	
 }
-@media all and (max-width: 540px) {
+@media all and (max-width: 550px) {
+	div#timeline .dot>p.steps__right {
+		top: 275%;
+	}
+	.timeline__item {
+		top: 230%;
+	}
+	.steps .row .row.flex {
+		top: 380%;
+		right: 55%;
+	}
+	div#timeline.timeline__mobile {
+		margin-top: 149%;
+		left: -60%;
+	}
+	.steps_2 {
+		padding-bottom: 300%;
+	}
+	div#timeline {
+		width: 300%;
+	}
+	div#timeline .dot>p.steps__right {
+		right: 145%;
+	}
 	div#timeline .dot:nth-child(1) {
-		left: 1%;
+		left: 7%;
 	}
 
 	div#timeline .dot:nth-child(2) {
-		left: 13%;
+		left: 24%;
 	}
 
 	div#timeline .dot:nth-child(3) {
-		left: 32%;
+		left: 45%;
 	}
 
 	div#timeline .dot:nth-child(4) {
-		left: 52%;
+		left: 67%;
 	}
 
 	div#timeline .dot:nth-child(5) {
-		left: 70%;
+		left: 86%;
 	}
 }
 @media all and (max-width: 384px) {
