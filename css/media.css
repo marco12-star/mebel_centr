@@ -405,7 +405,7 @@ section.feedback .container {
 		top: 230%;
 	}
 	.steps .row .row.flex {
-		top: 380%;
+		top: 350%;
 		right: 55%;
 	}
 	div#timeline.timeline__mobile {
@@ -508,5 +508,23 @@ section.feedback .container {
 	}
 	.slider__item {
 		margin: 0 1.5%;
+	}
+	.steps_2 {
+		padding-bottom: 330%;
+	}
+	div#timeline.timeline__mobile {
+		margin-top: 163.6%;
+		left: -73%;
+		width: 330%;
+	}
+	.steps .row .row.flex {
+		display: none;
+	}
+	div#timeline .dot:nth-child(1),
+	div#timeline .dot:nth-child(2),
+	div#timeline .dot:nth-child(3),
+	div#timeline .dot:nth-child(4),
+	div#timeline .dot:nth-child(5) {
+		opacity: 1;
 	}
 }
