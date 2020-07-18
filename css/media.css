@@ -550,4 +550,11 @@ section.feedback .container {
 	div#timeline .dot:nth-child(5) {
 		opacity: 1;
 	}
+	form input {
+		margin-right: 15px;
+	}
+	form .form__btn {
+		padding: 20px 29px;
+		margin-right: 10px;
+	}
 }

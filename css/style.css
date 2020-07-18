@@ -1012,7 +1012,7 @@ form .form__btn span{
     width: 100%;
 }
 
-.calc label p {
+.calc label > p {
 	width: 39%;
 	font-size: 14px;
 	color: #99F897;
