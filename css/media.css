@@ -527,7 +527,10 @@ section.feedback .container {
 		left: 11%;
 	}
 	.slider__item {
-		margin: 0 1.5%;
+		margin: 0 1.7%;
+	}
+	.slider__item p {
+		font-size: 14px;
 	}
 	.steps_2 {
 		padding-bottom: 330%;
