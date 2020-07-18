@@ -350,6 +350,14 @@ section.feedback .container {
 	}
 }
 @media all and (max-width: 670px) {
+	.container>.navbar-header {
+		margin-right: -15px;
+		margin-left: -15px;
+		display: flex;
+		align-items: center;
+		flex-flow: row-reverse;
+		justify-content: space-between;
+	}
 	.steps_2 {
 		padding-bottom: 200%;
 	}
