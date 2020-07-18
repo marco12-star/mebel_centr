@@ -796,7 +796,6 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/slick.min.js"></script>
-        <script src="js/spoiler.js"></script>
         <script>
             //SLIDER
             $(document).ready(function () {
@@ -822,7 +821,7 @@
             ]
             });
             });
-
+            //STEPS
             $(document).ready(function () {
             let current = 0;
             const els = $('.dot');
@@ -839,6 +838,16 @@
                 $('.filter > div').show(200);
                 }
                 }
+                });
+                });
+                // SPOILER
+                $(document).ready(function(){
+                $('.spoiler__title').click(function(event){
+                if ($('.spoiler').hasClass('one')) {
+                $('.spoiler__title').not($(this)).removeClass('active');
+                $('.spoiler__text').not($(this).next()).slideUp(300)
+                }
+                $(this).toggleClass('active').next().slideToggle(300);
                 });
                 });
         </script>
