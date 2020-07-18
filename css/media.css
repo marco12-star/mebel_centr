@@ -127,7 +127,7 @@ section.feedback .container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-}
+} 
 
 .discount .row {
 	text-align: center;
@@ -166,6 +166,11 @@ section.feedback .container {
 @media all and (max-width: 1050px) {
 	.slider__item img {
 		display: none;
+	}
+	.slider__item .img_mob {
+		display: block;
+		position: unset;
+		margin: 15px auto;
 	}
 	.slider__item {
 		padding: 15px;
@@ -383,11 +388,6 @@ section.feedback .container {
 	.slider__item {
 		margin: 0 1.3%;
 		text-align: center;
-	}
-	.slider__item .img_mob {
-		display: block;
-		position: unset;
-		margin: 15px auto;
 	}
 	.slider_link_desk {
 		display: none;
