@@ -131,6 +131,7 @@ section.feedback .container {
 
 .discount .row {
 	text-align: center;
+	margin-right: 0;
 }
 
 .discount .container > a {
@@ -160,6 +161,9 @@ section.feedback .container {
 }
 .footer .row.flex {
 	justify-content: center;
+}
+div#timeline .dot .timeline__item p {
+	top: 0;
 }
 
 }
