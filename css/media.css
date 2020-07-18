@@ -251,6 +251,9 @@ section.feedback .container {
 	div#timeline.timeline__mobile {
 		margin-top: 49.3%;
 	}
+	div#timeline .dot {
+		 width: 4%;
+	}
 
 	div#timeline .dot:nth-child(1) {
 		left: 7%;
@@ -338,6 +341,10 @@ section.feedback .container {
 	div#timeline .dot p {
 		right: 0;
 	}
+	div#timeline .dot>p,
+	div#timeline .dot>p.steps__right {
+		right: 105%;
+	}
 	.steps .row .row.flex {
 		top: 380%;
 	}
@@ -348,6 +355,13 @@ section.feedback .container {
 	}
 	div#timeline {
 		width: 200%;	
+	}
+	div#timeline .dot {
+		width: 2.5%;
+	}
+	div#timeline .dot>p.steps__right {
+		top: -330%;
+		right: 105%;
 	}
 	div#timeline.timeline__mobile {
 		margin-top: 99.3%;
@@ -398,9 +412,6 @@ section.feedback .container {
 	
 }
 @media all and (max-width: 550px) {
-	div#timeline .dot>p.steps__right {
-		top: 275%;
-	}
 	.timeline__item {
 		top: 230%;
 	}
@@ -420,6 +431,7 @@ section.feedback .container {
 	}
 	div#timeline .dot>p.steps__right {
 		right: 145%;
+		top: 275%;
 	}
 	div#timeline .dot:nth-child(1) {
 		left: 7%;
