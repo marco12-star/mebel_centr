@@ -162,6 +162,9 @@ section.feedback .container {
 .footer .row.flex {
 	justify-content: center;
 }
+div#timeline .dot {
+	width: 3.5%;
+}
 div#timeline .dot .timeline__item p {
 	top: 0;
 }
@@ -369,7 +372,7 @@ div#timeline .dot .timeline__item p {
 		width: 200%;	
 	}
 	div#timeline .dot {
-		width: 2.5%;
+		width: 3%;
 	}
 	div#timeline .dot>p.steps__right {
 		top: -330%;
@@ -434,6 +437,9 @@ div#timeline .dot .timeline__item p {
 	div#timeline.timeline__mobile {
 		margin-top: 149%;
 		left: -60%;
+	}
+	div#timeline .dot {
+		width: 2.5%;
 	}
 	.steps_2 {
 		padding-bottom: 300%;
