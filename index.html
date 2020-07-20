@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/slider.css">
     </head>
     <body>
         <header>
@@ -278,7 +279,7 @@
             <div class="container">
                 <h2>Отзывы клиентов</h2>
                 <p>Мы гордимся отзывами наших клиентов</p>
-                <div class="row wrapper">
+                <div class="row wrapper__slider">
                     <div class="slider">
                         <div class="slider__item filter">
                             <img src="img/feedback.png" alt="Отзыв">
@@ -474,19 +475,23 @@
 
         <section class="filling">
             <div class="container">
-                <div class="row">
-                    <h2>Эффективное наполнение</h2>
-                    <p>Грамотно организуем внутреннее пространство шкафа любой формы и размера</p>
-                    <img src="img/fill.png" alt="Шкаф">
-                    <div class="filling__nav">
-                        <ul class="flex">
-                            <li><a href="#" class="selected">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                        </ul>
-                        <p>Благодаря эффективному наполнению шкафа можно добиться успеха в <br> организации пространства и экономии средств на покупку другой мебели.</p>
+                <div class="filling__wrapper">
+                    <div class="fill_slider">
+                        <div class="slider__item">
+                            <img src="img/fill.png" alt="Наполнение пример 1">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/fill.png" alt="Наполнение пример 1">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/fill.png" alt="Наполнение пример 1">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/fill.png" alt="Наполнение пример 1">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/fill.png" alt="Наполнение пример 1">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -797,6 +802,32 @@
         <script src="js/bootstrap.js"></script>
         <script src="js/slick.min.js"></script>
         <script>
+            //SLIDER FILLING
+                $(document).ready(function () {
+                    $('.fill_slider').slick({
+                        arrows: false,
+                        dots: true,
+                        slidesToShow: 1,
+                        swipe: false,
+                        speed: 1000,
+                        centerMode: true,
+                        centerPadding: '20%',
+                        responsive: [
+                            {
+                                breakpoint: 768,
+                                settings: {
+                                    slidesToShow: 1
+                                }
+                            },
+                            {
+                                breakpoint: 550,
+                                settings: {
+                                    slidesToShow: 1
+                                }
+                            }
+                        ]
+                    });
+                });
             //SLIDER
             $(document).ready(function () {
             $('.slider').slick({

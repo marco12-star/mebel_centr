@@ -171,15 +171,15 @@ div#timeline .dot .timeline__item p {
 
 }
 @media all and (max-width: 1050px) {
-	.slider__item img {
+	.wrapper__slider .slider__item img {
 		display: none;
 	}
-	.slider__item .img_mob {
+	.wrapper__slider .slider__item .img_mob {
 		display: block;
 		position: unset;
 		margin: 15px auto;
 	}
-	.slider__item {
+	.wrapper__slider .slider__item {
 		padding: 15px;
 	}
 	div#timeline.timeline__mobile {
@@ -284,7 +284,7 @@ div#timeline .dot .timeline__item p {
 }
 
 @media all and (max-width: 900px) {
-	.slider__item h3 {
+	.wrapper__slider .slider__item h3 {
 		font-size: 18px;
 	}
 	.pro {
@@ -340,7 +340,7 @@ div#timeline .dot .timeline__item p {
 		margin-right: 15px;
 	}
 	.wrapper,
-	.slider {
+	.wrapper__slider .slider {
 		padding: 0;
 	}
 	div#timeline .dot>p,
@@ -414,14 +414,14 @@ div#timeline .dot .timeline__item p {
 	.calc label p {
 		width: 100%;
 	}
-	.slider__item {
+	.wrapper__slider .slider__item {
 		margin: 0 1.3%;
 		text-align: center;
 	}
-	.slider_link_desk {
+	.wrapper__slider .slider_link_desk {
 		display: none;
 	}
-	.slider_link_mob {
+	.wrapper__slider .slider_link_mob {
 		display: block;
 	}
 	
@@ -536,10 +536,10 @@ div#timeline .dot .timeline__item p {
 	.map .map__contact {
 		left: 11%;
 	}
-	.slider__item {
+	.wrapper__slider .slider__item {
 		margin: 0 1.7%;
 	}
-	.slider__item p {
+	.wrapper__slider .slider__item p {
 		font-size: 14px;
 	}
 	.steps_2 {

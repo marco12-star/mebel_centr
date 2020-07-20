@@ -345,7 +345,7 @@ h2 {
 	border: 0;
 	box-sizing: border-box;
 }
-.wrapper{
+.wrapper__slider{
 	height: 100%;
 	padding: 50px;
 	display: flex;
@@ -353,24 +353,24 @@ h2 {
 	align-items: center;
 }
 
-.slick-slider{
+.wrapper__slider .slick-slider {
 	min-width: 0;
 }
-.slick-list {
+.wrapper__slider .slick-list {
 	overflow: hidden;
 }
 
-.slick-track{
+.wrapper__slider .slick-track {
 	display: flex;
 	align-items: flex-start;
 }
 
-.slider {
+.wrapper__slider .slider {
 	position: relative;
 	padding: 0px 60px;
 }
  
-.slider .slick-arrow{
+.wrapper__slider .slider .slick-arrow{
 	position: absolute;
 	top: 50%;
 	margin: -30px 0px 0px 0px;
@@ -380,21 +380,21 @@ h2 {
 	height: 60px;
 	background: transparent;
 }
-.slider .slick-arrow.slick-disabled{
+.wrapper__slider .slider .slick-arrow.slick-disabled{
 	opacity: 0.2;
 }
 
-.slider .slick-dots{
+.wrapper__slider .slider .slick-dots{
 	margin-top: 60px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.slider .slick-dots li{
+.wrapper__slider .slider .slick-dots li{
 	list-style: none;
 	margin: 0px 10px;
 }
-.slider .slick-dots button{
+.wrapper__slider .slider .slick-dots button{
 	font-size: 0;
 	width: 10px;
 	height: 10px;
@@ -402,28 +402,28 @@ h2 {
 	border-radius: 50%;
 }
 
-.slider .slick-dots li.slick-active button{
+.wrapper__slider .slider .slick-dots li.slick-active button{
 	background-color: transparent;
 	border: 1px solid #fff;
 }
 
-.slider__item {
+.wrapper__slider .slider__item {
 	padding: 37px 100px 60px 140px;
 	margin: 0 1%;
 	border-radius: 14px;
 	text-align: start;
 }
-.slider__item img{
+.wrapper__slider .slider__item img{
 	max-width: 100%;
 }
 
-.slider__item{
+.wrapper__slider .slider__item{
 	position: relative;
 	padding: 43px 0 37px 128px;
 	background-color: #291733;
 }
 
-.slider__item > img{
+.wrapper__slider .slider__item > img{
 	position: absolute;
 	left: -10%;
 }
@@ -432,29 +432,29 @@ h2 {
 	display: none;
 }
 
-.slider__item img.apostrophe{
+.wrapper__slider .slider__item img.apostrophe{
 	left: 5%;
 	top: 10%;
 }
 
-.slider__item h3{
+.wrapper__slider .slider__item h3{
 	padding-bottom: 24px;
 	font-weight: 700;
 	font-size: 24px;
 }
 
-.slider__item p{
+.wrapper__slider .slider__item p{
 	width: 95%;
 	padding-bottom: 16px;
 	font-size: 18px;
 }
-.slider__item a{
+.wrapper__slider .slider__item a{
 	font-weight: 700;
 	font-size: 16px;
 	color: var(--green-color);
 }
 
-.slider_link_mob {
+.wrapper__slider .slider_link_mob {
 	display: none;
 }
 
