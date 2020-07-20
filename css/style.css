@@ -398,12 +398,14 @@ h2 {
 	font-size: 0;
 	width: 10px;
 	height: 10px;
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.8);
 	border-radius: 50%;
 }
 
 .wrapper__slider .slider .slick-dots li.slick-active button{
-	background-color: transparent;
+	width: 11px;
+	height: 11px;
+	background-color: #fff;
 	border: 1px solid #fff;
 }
 
@@ -1283,7 +1285,7 @@ form .form__btn span{
 	position: absolute;
 	top: 34.3%;
 	bottom: 0;
-	right: 20%;
+	right: 18%;
 }
 
 

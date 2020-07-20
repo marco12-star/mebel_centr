@@ -66,7 +66,8 @@
 }
 .advantages .container.flex {
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: unset;
+	padding: 0 85px;
 }
 .advantages .container.flex .advantages__item {
 	padding: 30px;
@@ -484,6 +485,9 @@ div#timeline .dot .timeline__item p {
 		left: 86%;
 	}
 	.filling__wrapper {
+		padding: 0;
+	}
+	.wrapper__slider {
 		padding: 0;
 	}
 }
