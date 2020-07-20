@@ -558,10 +558,20 @@ div#timeline .dot .timeline__item p {
 		left: 11%;
 	}
 	.wrapper__slider .slider__item {
-		margin: 0 1.7%;
+		margin: 0;
+		opacity: .1;
+		transition: .3s ease;
+		-ms-transform: scaleY(.9);
+		transform: scaleY(.9);
 	}
 	.wrapper__slider .slider__item p {
 		font-size: 14px;
+	}
+	.wrapper__slider .slick-slide.slick-current {
+		opacity: 1;
+		transition: .8s ease;
+		-ms-transform: scaleY(1);
+		transform: scaleY(1);
 	}
 	.steps_2 {
 		padding-bottom: 330%;
