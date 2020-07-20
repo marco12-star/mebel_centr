@@ -168,7 +168,13 @@ div#timeline .dot {
 div#timeline .dot .timeline__item p {
 	top: 0;
 }
-
+.filling__wrapper .slick-slide.slick-current img {
+	width: 100%;
+}
+.filling__wrapper .slider__item img {
+	width: 100%;
+	padding-top: 25px;
+}
 }
 @media all and (max-width: 1050px) {
 	.wrapper__slider .slider__item img {
@@ -281,6 +287,9 @@ div#timeline .dot .timeline__item p {
 	div#timeline .dot:nth-child(5) {
 		left: 80%;
 	}
+	.filling__wrapper .slider__item img {
+		padding-top: 17px;
+	}
 }
 
 @media all and (max-width: 900px) {
@@ -355,6 +364,9 @@ div#timeline .dot .timeline__item p {
 	.steps .row .row.flex {
 		top: 380%;
 	}
+	.filling__wrapper .slider__item img {
+		padding-top: 15px;
+	}
 }
 @media all and (max-width: 670px) {
 	.container>.navbar-header {
@@ -424,7 +436,9 @@ div#timeline .dot .timeline__item p {
 	.wrapper__slider .slider_link_mob {
 		display: block;
 	}
-	
+	.filling__wrapper .slider__item img {
+		padding-top: 12px;
+	}
 }
 @media all and (max-width: 550px) {
 	.timeline__item {
@@ -469,6 +483,9 @@ div#timeline .dot .timeline__item p {
 
 	div#timeline .dot:nth-child(5) {
 		left: 86%;
+	}
+	.filling__wrapper {
+		padding: 0;
 	}
 }
 @media all and (max-width: 384px) {

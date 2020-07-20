@@ -20,8 +20,6 @@
 }
 
 .filling__wrapper .fill_slider {
-	position: relative;
-	padding: 0px 60px;
 }
 
 .filling__wrapper .fill_slider .slick-arrow.slick-disabled{
