@@ -34,7 +34,7 @@ h2 {
 	border: none;
 	-webkit-box-shadow: unset;
 	-moz-box-shadow: unset;
-   box-shadow: unset;
+	box-shadow: unset;
 }
 
 .navbar_brand{
@@ -43,6 +43,7 @@ h2 {
 
 .navbar-default .navbar-nav{
 	padding-top: 35px;
+	flex-wrap: nowrap;
 }
 
 .navbar-default .navbar-nav > li > a{
@@ -53,6 +54,7 @@ h2 {
 
 .header__contact{
 	margin-top: 25px;
+	justify-content: flex-end;
 }
 .header__contact div.flex{
 	flex-direction: column;
@@ -919,7 +921,7 @@ form input{
 }
 
 form .form__btn{
-	padding: 0px 33px;
+	padding: 0px 31px;
     background: transparent;
     border: 2px dashed #39D852;
     border-radius: 14px;
@@ -1349,7 +1351,8 @@ form .form__btn span{
 }
 
 .footer .row .footer__nav ul {
-	margin: 0 75px;
+	justify-content: space-around;
+	flex-wrap: nowrap;
 }
 
 .footer .row .footer__nav ul.flex a{
@@ -1364,6 +1367,7 @@ form .form__btn span{
 
 .footer .row > .flex {
 	flex-direction: column;
+	text-align: right;
 }
 
 /* FOOTER */

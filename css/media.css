@@ -66,11 +66,12 @@
 }
 .advantages .container.flex {
 	flex-wrap: wrap;
-	justify-content: unset;
-	padding: 0 85px;
 }
 .advantages .container.flex .advantages__item {
-	padding: 30px;
+	padding: 4%;
+	width: 50%;
+	height: 220px;
+
 }
 .portfolio .row.flex, .portfolio .row .flex {
 	flex-wrap: wrap;
@@ -397,9 +398,6 @@ div#timeline .dot .timeline__item p {
 		margin-top: 99.3%;
 		left: -50%;
 	}
-	div#timeline .dot p {
-		right: -10px;
-	}
 	div#timeline .dot>p {
 		right: 105%;
 	}
@@ -416,7 +414,7 @@ div#timeline .dot .timeline__item p {
 		margin-right: 33px;
 	}
 	form .form__btn {
-		padding: 20px;
+		padding: 20px 30px;
 		margin-right: 25px;
 	}
 	.calc .yellow {
@@ -490,6 +488,9 @@ div#timeline .dot .timeline__item p {
 	.wrapper__slider {
 		padding: 0;
 	}
+	.footer .row .footer__nav ul.flex li {
+		padding: 15px;
+	}
 }
 @media all and (max-width: 384px) {
 	.hero h1 {
@@ -498,13 +499,17 @@ div#timeline .dot .timeline__item p {
 	.hero h1 span {
 		font-size: 28px;
 	}
+	.advantages .container.flex {
+		flex-direction: column;
+	}
+	.advantages .container.flex .advantages__item {
+		margin: 10px auto;
+	}
 	.yellow {
 		font-size: 15px;
 		padding: 10px;
 	}
-	.portfolio h2,
-	.feedback h2,
-	.production h2 {
+	h2 {
 		font-size: 32px;
 	}
 	.production p {
@@ -524,9 +529,6 @@ div#timeline .dot .timeline__item p {
 	.steps h2 {
 		font-size: 38px;
 	}
-	.plans h2 {
-		font-size: 32px;
-	}
 	.plans__item {
 		width: 85%;
 	}
@@ -541,7 +543,6 @@ div#timeline .dot .timeline__item p {
 		right: -22px;
 	}
 	.calc h2 {
-		font-size: 32px;
 		padding-left: 0;
 	}
 	.plans__item p {
@@ -586,5 +587,8 @@ div#timeline .dot .timeline__item p {
 	form .form__btn {
 		padding: 20px 29px;
 		margin-right: 10px;
+	}
+	.footer .row .footer__nav ul.flex a	{
+		padding: 0;
 	}
 }
