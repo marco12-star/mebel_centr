@@ -774,7 +774,7 @@ div#timeline {
  div#timeline .dot {
     z-index: 99;
     transition: 0.3s ease-in-out;
-    width: 2.7%;
+    width: 42px;
     height: 40px;
     border-radius: 50%;
     position: absolute;
@@ -865,16 +865,12 @@ div#timeline .dot .timeline__item p {
 
 .calc h2{
 	padding-bottom: 15px;
-	padding-left: 25px;
 }
 
 .calc > p {
 	padding-bottom: 55px;
 	padding-left: 25px;
 	font-size: 20px;
-}
-.calc .row>p {
-	padding-left: 2.2%;
 }
 
 form {
