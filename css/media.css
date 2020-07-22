@@ -311,8 +311,11 @@ div#timeline .dot .timeline__item p {
 }
 
 @media all and (max-width: 900px) {
+	.navbar-default .navbar-nav {
+		padding-right: 0;
+	}
 	.navbar-default .navbar-nav>li>a {
-		font-size: 18px;
+		font-size: 17px;
 	}
 	.wrapper__slider .slider__item h3 {
 		font-size: 18px;
@@ -400,8 +403,20 @@ div#timeline .dot .timeline__item p {
 			flex-flow: row-reverse;
 			justify-content: space-between;
 		}
+		.navbar-default .navbar-nav {
+			width: 50%;
+		}
+		.header__contact {
+			width: 50%;
+		}
 		.navbar-toggle {
 			margin: 0;
+		}
+		.show {
+			display: flex;
+		}
+		.header__contact a {
+			padding-top: 48px;
 		}
 		.navbar-default .navbar-nav>li>a {
 			padding: 10px;
