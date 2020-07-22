@@ -1,4 +1,10 @@
 @media all and (max-width: 1300px){
+	.navbar-default .navbar-nav {
+		padding-right: 50px;
+	}
+	.navbar-default .navbar-nav>li>a {
+		font-size: 18px;
+	}
 	.discount .container > a {
 		left: 50%;
 	}
