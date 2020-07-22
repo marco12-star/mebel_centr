@@ -917,6 +917,7 @@ form input{
 }
 
 form .form__btn{
+	width: 268px;
 	padding: 0px 31px;
     background: transparent;
     border: 2px dashed #39D852;
