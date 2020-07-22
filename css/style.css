@@ -63,12 +63,12 @@ h2 {
 .header__contact a,
 .footer .flex a
 {
+	padding-top: 15px;
 	font-weight: 700;
 	font-size: 22px;
 	color: var(--dark-color);
 	white-space: nowrap;
 }
-
 .header__contact .header__contact-email,
 .footer .container .row .header__contact-email
 {

@@ -70,6 +70,9 @@
 	.navbar-default .navbar-nav>li>a {
 		font-size: 15px;
 	}
+	.header__contact>a {
+		padding-top: 5px;
+	}
 	.header__contact div.flex {
 		display: none;
 	}
