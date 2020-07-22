@@ -63,7 +63,6 @@ h2 {
 .header__contact a,
 .footer .flex a
 {
-	padding-top: 15px;
 	font-weight: 700;
 	font-size: 22px;
 	color: var(--dark-color);
