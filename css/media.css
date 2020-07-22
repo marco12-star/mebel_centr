@@ -62,7 +62,7 @@
 }
 @media all and (max-width: 1199px) {
 	.navbar-default .navbar-nav {
-		padding-top: 6%;
+		padding-top: 55px
 	}
 	.navbar-default .navbar-nav>li>a {
 		font-size: 20px;
@@ -227,8 +227,8 @@ div#timeline .dot .timeline__item p {
 	}
 }
 @media all and (max-width: 991px) {
-	.header__contact div.flex {
-		display: flex;
+	.navbar .container {
+		width: unset;
 	}
 	.hero .container.flex {
 		flex-wrap: wrap-reverse;
