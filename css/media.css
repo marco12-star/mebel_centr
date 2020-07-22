@@ -308,6 +308,9 @@ div#timeline .dot .timeline__item p {
 }
 
 @media all and (max-width: 900px) {
+	.navbar-default .navbar-nav>li>a {
+		font-size: 18px;
+	}
 	.wrapper__slider .slider__item h3 {
 		font-size: 18px;
 	}
@@ -329,7 +332,6 @@ div#timeline .dot .timeline__item p {
 }
 @media all and (max-width: 800px) {
 	.navbar-default .navbar-nav>li>a {
-		font-size: 18px;
 		padding: 0 10px;
 	}
 	div#timeline.timeline__mobile {
