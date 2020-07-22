@@ -1341,11 +1341,15 @@ form .form__btn span{
 	color: var(--lightgrey-color);
 }
 
-.footer .row .footer__copyright > a{
+.footer .flex .conf {
+	padding-top: 50px;
 	font-size: 18px;
 	color: var(--green-color);
+	text-align: left;
 }
-
+.footer .flex.col-sm-12 .conf {
+	display: none;
+}
 .footer .row .footer__nav ul {
 	justify-content: space-around;
 	flex-wrap: nowrap;
@@ -1357,11 +1361,16 @@ form .form__btn span{
 	color: var(--lightgrey-color);
 }
 
+.footer .flex .col-lg-3 {
+	justify-content: space-between;
+}
+
 .footer .flex a {
 	color: var(--white-color);
 }
 
-.footer .row > .flex {
+
+.footer .contact__number {
 	flex-direction: column;
 	text-align: right;
 }
