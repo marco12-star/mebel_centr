@@ -201,6 +201,7 @@ div#timeline .dot .timeline__item p {
 	}
 	.wrapper__slider .slider__item {
 		padding: 15px;
+		text-align: center;
 	}
 	div#timeline.timeline__mobile {
 		margin-top: 49.3%;
@@ -397,6 +398,9 @@ div#timeline .dot .timeline__item p {
 		.navbar-toggle {
 			margin: 0;
 		}
+		.navbar-default .navbar-nav>li>a {
+			padding: 10px;
+		}
 }
 
 @media all and (max-width: 670px) {
@@ -454,6 +458,7 @@ div#timeline .dot .timeline__item p {
 	}
 	.wrapper__slider .slider_link_mob {
 		display: block;
+		padding-bottom: 15px;
 	}
 	.filling__wrapper .slider__item img {
 		padding-top: 12px;
